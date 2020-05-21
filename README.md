@@ -16,6 +16,8 @@ docker run \
   lukechilds/electrumx
 ```
 
+If your Daemon is runing on your localhost machine, you can pass ```-network host``` and set host ip with 127.0.0.1 like ```http://user:pass@127.0.0.1:18332``` to let Docker communicate with host service.
+
 If there's an SSL certificate/key (`electrumx.crt`/`electrumx.key`) in the `/data` volume it'll be used. If not, one will be generated for you.
 
 You can view all ElectrumX environment variables here: https://github.com/kyuupichan/electrumx/blob/master/docs/environment.rst
