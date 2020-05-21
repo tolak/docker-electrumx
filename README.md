@@ -53,4 +53,4 @@ docker run \
 
 ## License
 
-MIT © Luke Childs
+MIT © Wenfeng Wang
